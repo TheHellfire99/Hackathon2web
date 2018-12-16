@@ -1,0 +1,288 @@
+/*------------nav-------------*/
+.navbar {
+  overflow: hidden;
+  background-color: #1AC000;
+  font-family: Arial;
+  border-radius: 15px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*------------body-------------*/
+.body{
+  height: 100vh; 
+  background-image: url(https://cdn.glitch.com/06ec1d5f-167f-462a-a89c-1a138c6076ba%2Feutrophication4.jpg?1544896474383); 
+  background-size: cover; 
+  background-attachment: fixed; 
+}
+
+.title{
+  font-style: italic;
+  color: white;
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif; 
+  text-align: center; 
+}
+.words{
+  font-style: italic;
+  color: white;
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif; 
+  text-align: center; 
+  position: relative; 
+  top: 35%; 
+  font-size: 50px; 
+}
+/******bodysecond**********/
+.bodysecond{
+  height: 100vh; 
+  background-image:url(https://cdn.glitch.com/06ec1d5f-167f-462a-a89c-1a138c6076ba%2Fwhateutrophication.png?1544896473985); 
+  background-size: cover; 
+  background-attachment: fixed; 
+}
+.tile{
+    text-align: center; 
+    font-size: 35px; 
+    font-family: 'Anton', sans-serif;
+}
+.para{
+   font-family: 'Major Mono Display', monospace;
+    width: 45%; 
+    position: absolute;
+    top: 18.1%;
+    left: 52%; 
+    font-size: 25px;
+    background-color: chocolate;
+    border-radius: 10px;
+}
+/*************************bodythird*************/ 
+.bodythird{
+  height: 100vh; 
+  background-image:url(https://cdn.glitch.com/06ec1d5f-167f-462a-a89c-1a138c6076ba%2Feutrophication3.jpg?1544896473786); 
+  background-size: cover; 
+  background-attachment: fixed; 
+}
+.tile{
+    text-align: center; 
+    font-size: 35px; 
+    font-family: 'Anton', sans-serif;
+}
+.parathree{
+   font-family: 'Major Mono Display', monospace;
+    width: 45%; 
+    position: absolute;
+    top: 18.1%;
+    left: 52%; 
+    font-size: 30px;
+    color: white; 
+    background-color: chocolate;
+    border-radius: 10px;
+}
+/**********************bodyfour+*********/
+.bodyfour{
+  height: 100vh; 
+  background-image:url(https://cdn.glitch.com/06ec1d5f-167f-462a-a89c-1a138c6076ba%2Feffect.jpg?1544896493952); 
+  background-size: cover; 
+  background-attachment: fixed; 
+}
+.tile{
+    text-align: center; 
+    font-size: 35px; 
+    font-family: 'Anton', sans-serif;
+}
+.parafour{
+font-family: 'Major Mono Display', monospace;
+    width: 45%; 
+    position: absolute;
+    top: 18.1%;
+    left: 52%; 
+    font-size: 30px;
+    color: white; 
+    background-color: chocolate;
+    border-radius: 10px;
+}
+/**********************lastbody***********/
+.lastbody{
+  height: 100vh; 
+  background-image: url(https://cdn.glitch.com/06ec1d5f-167f-462a-a89c-1a138c6076ba%2Fgey2.jpg?1544912128565); 
+  background-size: cover; 
+  background-attachment: fixed; 
+}
+
+.title{
+  font-style: italic;
+  color: white;
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif; 
+  text-align: center; 
+}
+.lastpara{
+    font-family: 'Niconne', cursive;
+    color: goldenrod;
+    text-align: center;
+    font-size: 35px;
+}
+.imgone{
+    border: 2px solid gold; 
+    position: absolute;
+    left: 2%; 
+    top: 55%; 
+}
+.imgtwo{
+    border: 2px solid gold; 
+    position: absolute;
+    left: 73%; 
+    top: 55%; 
+}
+.imgthree{
+    border: 2px solid gold; 
+    position: absolute;
+    left: 36%; 
+    top: 55%; 
+}
+/*****************sectiontwo*******************/ 
+.sectiontwo{
+    height: 100vh;
+    background-image: url(https://cdn.glitch.com/06ec1d5f-167f-462a-a89c-1a138c6076ba%2Fgey5.jpg?1544914514110);
+    background-size: cover; 
+}
+.wordone{
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 30px; 
+}
+.wordtwo{
+    color: wheat;
+    font-family: 'Staatliches', cursive;
+    font-size: 30px; 
+}
+.lastimage{
+    border: 2px solid gold; 
+    position: absolute; 
+    top: 135%; 
+    left: 55%; 
+}
+/*************bodyred********/
+.bodyred{
+  height: 100vh; 
+  background-image: url(https://cdn.glitch.com/06ec1d5f-167f-462a-a89c-1a138c6076ba%2Feffectcalifornia5.jpg?1544896493985); 
+  background-size: cover; 
+  background-attachment: fixed; 
+}
+/************************bodyredtwo***************/
+.bodyredtwo{
+  height: 100vh; 
+  background-image: url(https://cdn.glitch.com/06ec1d5f-167f-462a-a89c-1a138c6076ba%2Feffect4.jpg?1544896496546); 
+  background-size: cover; 
+  background-attachment: fixed; 
+}
+.bodyredthree{
+  height: 100vh; 
+  background-image: url(https://cdn.glitch.com/06ec1d5f-167f-462a-a89c-1a138c6076ba%2Fgey10.jpg?1544918727818); 
+  background-size: cover; 
+  background-attachment: fixed; 
+}
+
+/************************************************/
+.wordsfour{
+    color: chartreuse;
+    font-family: 'Staatliches', cursive;
+    font-size: 30px; 
+    text-align: center;
+}
+.bodygey{
+  height: 100vh; 
+  background-image: url(https://cdn.glitch.com/06ec1d5f-167f-462a-a89c-1a138c6076ba%2Fgeyest.jpg?1544920120715); 
+  background-size: cover; 
+  background-attachment: fixed; 
+}
+.yet{
+    border: 2px solid gold; 
+    border-radius: 5px; 
+    position: absolute; 
+    top: 50%; 
+}
+.yeet{
+    border: 2px solid gold; 
+    border-radius: 5px; 
+    position: absolute; 
+    top: 50%; 
+    left: 35%;
+}
+.yeeet{
+    border: 2px solid gold; 
+    border-radius: 5px; 
+    position: absolute; 
+    top: 50%;
+    left: 69%;   
+}
+.wordsthree{
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 30px; 
+    text-align: center;
+}
+/*****************************************/
+.jk{
+    position: absolute; 
+    left: 60%; 
+    top: 50%; 
+}
+.no{
+    position: absolute; 
+    left: 10%; 
+    top: 52%; 
+}
